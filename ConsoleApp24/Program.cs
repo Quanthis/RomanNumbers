@@ -11,7 +11,7 @@ namespace ConsoleApp24
         static void Main(string[] args)
         {
             int a;
-            Console.WriteLine("Podaj liczbę z przedziału 1-3999");
+            Console.WriteLine("Tell me number in range 1-3999");
             a = Convert.ToInt32(Console.ReadLine());
             if (a >= 3000) { a -= 3000; Console.Write("MMM"); }
             else if (a >= 2000) { a -= 2000; Console.Write("MM"); }
